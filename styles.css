@@ -1,0 +1,54 @@
+/*
+
+    selector {
+        property: value;
+        property: value;
+        property: value;
+    }
+
+    tagname -> select all tags of a given type
+    .classname -> select all tags that have a gven class
+    tagname.classname -> select ONLY tags that are ALSO a given class
+
+    > -> child symbol
+
+    tagname>tagname -> select children of a given type
+    .classname>tagname -> select children of a given type
+    tagname>.classname -> select children of a given class
+    .classname>.classname ->select children of a given class
+*/
+
+
+.nav {
+    border-style:double ;
+    
+    width:27% ;
+    margin: auto;
+
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav>li {
+border-style: groove;
+display: inline-block;
+}
+
+.nav>li>a {
+
+}
+
+body {
+    text-align: center;
+}
+
+.pic2 {
+    height: 24ch;
+    width: auto;
+}
+
+.flag {
+    background-image: url(Images/irelandflag2.0.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
